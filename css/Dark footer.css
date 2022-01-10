@@ -1,12 +1,13 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 .flex-container {
-  background-color: rgba(214, 206, 206, 0.945);
-  color: rgba(14, 13, 13, 0.877);
-
+  background-color: rgba(0, 0, 0, 0.726);
+  color: whitesmoke;
+  
   display: flex;
   flex-direction: row;
   font-size: 30px;
@@ -35,7 +36,7 @@ ul {
   
   li a, .dropbtn {
     display: inline-block;
-    color: rgb(180, 9, 9);
+    color: rgb(236, 76, 76);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -52,11 +53,11 @@ ul {
   .dropdown-content {
    
     position: static;
-    
+   
   }
   
   .dropdown-content a {
-    color: black;
+    color: whitesmoke;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
